@@ -1,0 +1,23 @@
+---
+layout: default
+title: e64.us
+---
+<hr/>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Post Name</th>
+    </tr>
+    {% for post in site.posts %}
+    <tr>
+      <td class="post-date">{{ post.date | date_to_string }}</span></td>
+      <td class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  </ul>
+<hr/>
+</div>

@@ -1,0 +1,131 @@
+@import "syntax";
+
+$bg: #00304e;
+$bg2: lighten($bg, 50%);
+$bodybg: #eee;
+$link: #338;
+
+body {
+  background-color: $bg;
+  margin: 4em auto;
+  max-width: 900px;
+  font-family: Consolas,monaco,monospace;
+}
+
+hr {
+  background-color: $bg2;
+  height: 0.5em;
+}
+
+div.site {
+  border: 0.5em solid $bg2;
+  background: $bodybg;
+  padding-bottom: 2em;
+}
+
+#home {
+  text-align: center;
+  margin: 0 auto;
+}
+
+table {
+  align: center;
+  margin: 0 auto;
+  th {
+    padding: 0 0 1em 0;
+  }
+  td {
+    padding: 0.5em;
+  }
+}
+
+.title {
+  margin: 0.5em;
+  font-size: 5em;
+  color: white;
+  :hover {
+    color: $bg2;
+  }
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  text-align: center;
+  font-size: 1em;
+  vertical-align: text-top;
+}
+
+p {
+  font-size: 1.25em;
+}
+li, ul {
+  font-size: 1.25em;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+}
+h1 a {
+  color: white;
+}
+a:hover {
+  color: $bg2;
+}
+
+h1,h2 {
+  margin-bottom: 1em;
+}
+
+.contact {
+  text-align: center;
+  a {
+    font-size: 2em;
+  }
+}
+
+div.post-title {
+  h2 {
+    font-size: 2em;
+  }
+  p.meta {
+    margin-top: -1em;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+  }
+}
+
+.post {
+  p, h1, h2, h3 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  hr {
+    margin-top: 2em;
+  }
+}
+
+audio {
+  padding-left: 5%;
+}
+
+.footer {
+  padding-top: 1em;
+}
+
+td.post-date {
+  vertical-align: top;
+  width: 25%;
+  height: 1.5em;
+}
+td.post-title {
+  vertical-align: top;
+  width: 75%;
+  height: 1.5em;
+}

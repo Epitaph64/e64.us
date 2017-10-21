@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<hr/>
+<div class="post">
+  <div class="post-title">
+    <h2>{{ page.title }}</h2>
+    <p class="meta">Tags: {{ page.categories | join: ', '}}<br/>
+      Posted: {{ page.date | date_to_string }}</p>
+  </div>
+
+  <div class="post-body">
+  {{ content }}
+  </div>
+
+  <hr/>
+</div>

@@ -1,0 +1,26 @@
+---
+layout: post
+title: "HTML 5 Game Development Experiments"
+date: 2016-01-12
+categories: html5 game programming
+---
+Play the game: [CLICK HERE]
+
+After finishing the engineering class website I was tasked to work on over winter break, I decided to use the last week of vacation to improve my JavaScript skills. I decided working on a simple game would be a nice way to relax and still get some programming practice in.
+
+I had used [Phaser] in the past for CactusHack 2015 (hosted by [TucsonJS]) where my group managed to take 2nd place thanks to our bravery in attempting a game in 24 hours. I suppose participating in [LudumDare] events in the past has given me a bit of agility when it comes to learning new game frameworks and implementing basic gameplay.
+
+Sadly Phaser, despite having a lot of great features built in, suffers from a lack of up to date documentation and demo code. Additionally, because the library seems to have undergone quite a lot of change over time, many of the internet searches I performed while looking for basic functionality were for older versions of the library.
+
+Eventually I decided that I ought to check out [Pixi.JS] \(the library that Phaser is built on top of) upon hearing chatter around the internet that it was a much better library than Phaser, although being a bit harder to learn initially.
+
+What I’ve found, however, is that Pixi.JS is much more intuitively designed, and performs much better for games that involve simple logic. After spending about 3-4 hours with the library I’ve created a very simple game here to demonstrate what is possible. I however did use the wonderful [BigInteger] library by Peter Olson to allow quick score calculation and to store the large resulting integer for the later stages.
+
+1/14/16 - I have since spent quite a few more hours adding a few more elements to the game such as a threshold mechanic, and smoother animations.
+
+[CLICK HERE]: {{ site.baseurl }}/games/peg-pilferer
+[Phaser]: http://phaser.io/
+[TucsonJS]: http://www.meetup.com/TucsonJS/
+[LudumDare]: http://ludumdare.com/compo/
+[Pixi.JS]: http://www.pixijs.com/
+[BigInteger]: https://www.npmjs.com/package/big-integer
