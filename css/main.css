@@ -274,7 +274,8 @@ hr {
 div.site {
   border: 0.5em solid #4ebbff;
   background: #eee;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  margin-bottom: 4em; }
 
 #home {
   text-align: center;
