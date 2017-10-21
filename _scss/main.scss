@@ -5,6 +5,15 @@ $bg2: lighten($bg, 50%);
 $bodybg: #eee;
 $link: #338;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: $bg;
   margin: 4em auto;
@@ -15,6 +24,8 @@ body {
 hr {
   background-color: $bg2;
   height: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 div.site {
@@ -29,13 +40,15 @@ div.site {
 }
 
 table {
+  max-width: 95%;
   align: center;
   margin: 0 auto;
   th {
-    padding: 0 0 1em 0;
+    padding-bottom: 1em;
   }
   td {
-    padding: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
 }
 

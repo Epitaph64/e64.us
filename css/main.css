@@ -252,6 +252,13 @@
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
 body {
   background-color: #00304e;
   margin: 4em auto;
@@ -260,7 +267,9 @@ body {
 
 hr {
   background-color: #4ebbff;
-  height: 0.5em; }
+  height: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em; }
 
 div.site {
   border: 0.5em solid #4ebbff;
@@ -272,12 +281,14 @@ div.site {
   margin: 0 auto; }
 
 table {
+  max-width: 95%;
   align: center;
   margin: 0 auto; }
   table th {
-    padding: 0 0 1em 0; }
+    padding-bottom: 1em; }
   table td {
-    padding: 0.5em; }
+    padding-top: 0.25em;
+    padding-bottom: 0.25em; }
 
 .title {
   margin: 0.5em;
