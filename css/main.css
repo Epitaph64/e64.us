@@ -305,7 +305,8 @@ table {
   vertical-align: text-top; }
 
 p {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  margin-bottom: 1em; }
 
 li, ul {
   font-size: 1.25em; }
@@ -320,7 +321,7 @@ h1 a {
 a:hover {
   color: #4ebbff; }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em; }
 
 .contact {
