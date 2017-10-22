@@ -33,7 +33,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 
   bs.init({
     server: './_site',
-    startPath: '/wip/index.html'
+    //startPath: '/wip/index.html'
   });
 });
 

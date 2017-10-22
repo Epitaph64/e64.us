@@ -2,8 +2,8 @@ name: e64.us
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-baseurl: "/wip"
+baseurl: "" # should not begin or end with /
 relative_permalinks: false
-destination: '_site/wip'
+destination: '_site'
 includes:
   - images

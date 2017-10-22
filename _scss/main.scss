@@ -1,9 +1,14 @@
 @import "syntax";
 
+$base-size: 1em;
 $bg: #00304e;
 $bg2: lighten($bg, 50%);
 $bodybg: #eee;
 $link: #338;
+
+@media screen and (min-width: 900px) {
+  $base-size: 1.5em;
+}
 
 * {
   margin: 0;
@@ -16,23 +21,23 @@ html, body {
 
 body {
   background-color: $bg;
-  margin: 4em auto;
+  margin: ($base-size * 4) auto;
   max-width: 900px;
   font-family: Consolas,monaco,monospace;
 }
 
 hr {
   background-color: $bg2;
-  height: 0.5em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  height: ($base-size / 2) em;
+  margin-top: $base-size * 2;
+  margin-bottom: $base-size * 2;
 }
 
 div.site {
-  border: 0.5em solid $bg2;
+  border: ($base-size / 2) solid $bg2;
   background: $bodybg;
-  padding-bottom: 2em;
-  margin-bottom: 4em;
+  padding-bottom: $base-size * 2;
+  margin-bottom: $base-size * 4;
 }
 
 #home {
@@ -45,17 +50,17 @@ table {
   align: center;
   margin: 0 auto;
   th {
-    padding-bottom: 1em;
+    padding-bottom: $base-size;
   }
   td {
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
+    padding-top: $base-size / 4;
+    padding-bottom: $base-size / 4;
   }
 }
 
 .title {
-  margin: 0.5em;
-  font-size: 5em;
+  margin: $base-size / 2;
+  font-size: $base-size * 4;
   color: white;
   :hover {
     color: $bg2;
@@ -70,16 +75,16 @@ table {
 
 .header {
   text-align: center;
-  font-size: 1em;
+  font-size: $base-size;
   vertical-align: text-top;
 }
 
 p {
-  font-size: 1.25em;
-  margin-bottom: 1em;
+  font-size: $base-size;
+  margin-bottom: $base-size;
 }
 li, ul {
-  font-size: 1.25em;
+  font-size: $base-size * 1.25;
 }
 
 a {
@@ -100,18 +105,18 @@ h1,h2,h3,h4,h5,h6 {
 .contact {
   text-align: center;
   a {
-    font-size: 2em;
+    font-size: $base-size * 2;
   }
 }
 
 div.post-title {
   h2 {
-    font-size: 2em;
+    font-size: $base-size * 2;
   }
   p.meta {
-    margin-top: -1em;
-    font-size: 1.2em;
-    padding-bottom: 1em;
+    margin-top: -1 * $base-size;
+    font-size: 1.2 * $base-size;
+    padding-bottom: $base-size;
   }
 }
 
