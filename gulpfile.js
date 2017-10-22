@@ -29,11 +29,12 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
-    browserSync({
-        server: {
-            baseDir: '_site'
-        }
-    });
+  var bs = browserSync.create();
+
+  bs.init({
+    server: './_site',
+    startPath: '/wip/index.html'
+  });
 });
 
 /**
