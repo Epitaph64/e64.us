@@ -33,15 +33,15 @@ I plan to grow this winter and next spring.
 
 <img src={{ site.baseurl }}/images/plant-journaling-1/artistic-plants.jpg alt="Artistic Plants">
 
-<hr/>
+<br/>
 
 <table class="two-column">
   <tr>
-    <td><img src={{ site.baseurl }}/images/plant-journaling-1/bostonfern.png alt="Boston Fern"></td>
+    <td><img src={{ site.baseurl }}/images/plant-journaling-1/bluelakepolebeans.png alt="Outdoor Blue Lake Pole Beans"></td>
     <td><img src={{ site.baseurl }}/images/plant-journaling-1/dragontree.png alt="Dragon Tree"></td>
   </tr>
   <tr>
-    <td><img src={{ site.baseurl }}/images/plant-journaling-1/bluelakepolebeans.png alt="Outdoor Blue Lake Pole Beans"></td>
+    <td><img src={{ site.baseurl }}/images/plant-journaling-1/bostonfern.png alt="Boston Fern"></td>
     <td><img src={{ site.baseurl }}/images/plant-journaling-1/indoor-beans.jpg alt="Indoor Blue Lake Pole Beans"></td>
   </tr>
 </table>

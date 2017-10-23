@@ -1,5 +1,6 @@
 @import "syntax";
 
+$site-width: 64em;
 $base-size: 1em;
 $bg: #00203c;
 $bg2: lighten($bg, 50%);
@@ -16,19 +17,26 @@ $link: $bg;
 }
 
 html, body {
+  max-width: $site-width;
+  margin: 0 auto;
   height: 100%;
 }
 
 body {
   background-color: $bg;
   margin: ($base-size * 4) auto;
-  max-width: 900px;
+  max-width: $site-width;
   font-family: Consolas,monaco,monospace;
+  .site {
+    border: ($base-size / 2) solid $bg2;
+    background: $bodybg;
+    padding-bottom: $base-size * 2;
+    margin-bottom: $base-size * 4;
+  }
 }
 
 hr {
-  margin-top: $base-size * 1.7;
-  margin-bottom: $base-size * 1.7;
+  margin: ($base-size * 1.7) auto;
 }
 
 a {
@@ -37,14 +45,6 @@ a {
 }
 a:hover {
   color: $bg2;
-}
-
-// div which wraps the site (bordered outline)
-.site {
-  border: ($base-size / 2) solid $bg2;
-  background: $bodybg;
-  padding-bottom: $base-size * 2;
-  margin-bottom: $base-size * 4;
 }
 
 // home page style
@@ -119,21 +119,30 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .post, #home {
-  p, h1, h2, h3 {
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  overflow: hidden;
+  height: auto;
+  padding: $base-size * 2;
   p a {
     font-weight: bold;
     font-style: italic;
   }
+  img {
+    height: auto;
+    border: ($base-size / 4) solid $bg2;
+    width: 100%;
+  }
   table.two-column {
-    max-width: 90%;
-    margin: 1em auto;
-    td {
+    margin: 0 auto;
+    tr td {
       padding: $base-size;
+      img {
+        width: 100%;
+      }
     }
+  }
+  hr {
+    margin-left: -($base-size * 2);
+    width: $site-width + $base-size * 2;
   }
 }
 
