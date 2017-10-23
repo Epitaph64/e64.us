@@ -5,6 +5,7 @@ date:   2017-10-22
 categories: gardening plants
 ---
 
+<hr/>
 ## The Story
 
 I've been thinking about creating some basic software for my purposes of tracking
@@ -22,10 +23,28 @@ damage that they sustained. Luckily my cat was also fine as a result of gnawing 
 to taste or damage them perhaps.
 
 I have since purchased and grown a few types of plants from seeds in the ~3 months or so since then. For my bedroom I purchased two
-medium sized plants; a [boston fern] (nephrolepis exaltata) and a [dracaena marginata] \(also known as dracaena reflexa.) I'm also attempting to grow blue lake pole beans, peppermint, lemon balm, and a bird's nest fern (you can tell my addiction was sudden and
+medium sized plants; a [boston fern] \(nephrolepis exaltata) and a [dracaena marginata] \(also known as dracaena reflexa.) I'm also attempting to grow blue lake pole beans, peppermint, lemon balm, and a bird's nest fern (you can tell my addiction was sudden and
 severe.) Overall, I have found this new hobby to be extremely
 enriching and enjoyable. I already am thinking of plans for what
-I plan to grow this winter and next spring. I will likely add some photos to this post in the next few days.
+I plan to grow this winter and next spring.
+
+<hr/>
+## Photo Gallery
+
+<img src={{ site.baseurl }}/images/plant-journaling-1/artistic-plants.jpg alt="Artistic Plants">
+
+<hr/>
+
+<table class="two-column">
+  <tr>
+    <td><img src={{ site.baseurl }}/images/plant-journaling-1/bostonfern.png alt="Boston Fern"></td>
+    <td><img src={{ site.baseurl }}/images/plant-journaling-1/dragontree.png alt="Dragon Tree"></td>
+  </tr>
+  <tr>
+    <td><img src={{ site.baseurl }}/images/plant-journaling-1/bluelakepolebeans.png alt="Outdoor Blue Lake Pole Beans"></td>
+    <td><img src={{ site.baseurl }}/images/plant-journaling-1/indoor-beans.jpg alt="Indoor Blue Lake Pole Beans"></td>
+  </tr>
+</table>
 
 [dracaena fragrans]: https://en.wikipedia.org/wiki/Dracaena_fragrans
 [sansevieria]: https://en.wikipedia.org/wiki/Sansevieria
