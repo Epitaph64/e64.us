@@ -358,7 +358,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 66em; }
 
 audio {
-  padding-left: 5%; }
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .footer {
   padding-top: 1em; }
