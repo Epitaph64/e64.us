@@ -43,6 +43,8 @@ hr {
 a {
   color: $bg;
   text-decoration: none;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 a:hover {
   color: $bg2;
